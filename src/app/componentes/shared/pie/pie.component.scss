@@ -10,11 +10,11 @@
         color: black;
     }
     @include tabletLaptop(){
-        grid-template-columns: 55% auto 5%;
+      grid-template-columns: 5% 40% 55%;
     }
     p{
-        font-size: 8px;
-        align-self: center;
-        text-align: center;
+      font-size: 8px;
+      align-self: center;
+      text-align: center;
     }
 }

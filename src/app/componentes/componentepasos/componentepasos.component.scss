@@ -4,14 +4,17 @@
 .contenedor{
     display: grid;
     grid-template-columns: $margenContenido auto $margenContenido;
+    padding: -1px 20px !important;
     @include tabletLaptop(){
-        grid-template-columns: 55% auto $margenContenido;
+        //|grid-template-columns: 55% auto $margenContenido;
+        grid-template-columns: 0% auto 67% !important;
     }
 }
 
 .contenido{
     display: grid;
     grid-template-rows: repeat(2, auto);
+    padding: 0px 24px;
     .enriquecido{
         font-size: 12px;
         padding: 20px;
