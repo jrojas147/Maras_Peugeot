@@ -67,7 +67,8 @@ export const Constantes = {
     negado: './assets/img/negado.png',
     fondo: './assets/img/fondo2.jpg',
     cliente: './assets/img/logoAliado.png',
-    santander: './assets/img/consumerFinance.png',
-    santanderGris: './assets/img/consumerFinanceGris.png',
-    santanderBlanco: './assets/img/consumerFinanceBlanco.png'
+    santanderLogoRojo: './assets/img/consumerFinancingRojo.png',
+    santanderLogoNegro: './assets/img/consumerFinanceNegro.png',
+    santanderLogoBlanco: './assets/img/consumerFinanceBlanco.png',
+    santanderLogoGris: './assets/img/consumerFinancingGris.png',
 }
